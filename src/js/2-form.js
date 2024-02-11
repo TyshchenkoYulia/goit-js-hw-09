@@ -34,8 +34,8 @@ const rawData = localStorage.getItem(LS_KEY);
 if (rawData) {
     const data = JSON.parse(rawData);
 
-    email.value = data.email;
-    message.value = data.message;
+    email.value = data.emailValue;
+    message.value = data.messageValue;
 }
 
 // ==================================== submit
