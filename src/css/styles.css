@@ -6,3 +6,17 @@
 */
 @import url('./reset.css');
 
+/* ================ Gallery =================== */
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+/* =================== Form ==================== */
