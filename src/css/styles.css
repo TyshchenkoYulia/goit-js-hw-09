@@ -20,3 +20,56 @@
 }
 
 /* =================== Form ==================== */
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.feedback-form input {
+    margin-top: 8px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    max-width: 360px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+.feedback-form textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    max-width: 360px;
+    height: 80px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.feedback-form button {
+    border: none;
+    margin-top: 16px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.feedback-form button:hover {
+   background: #6c8cff;
+}
